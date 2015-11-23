@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: Filesystem.diagram; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: jfb.examples.gmf.filesystem.diagram.part.FilesystemDiagramEditorPlugin
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Export-Package: jfb.examples.gmf.filesystem.diagram.edit.parts, 
+ jfb.examples.gmf.filesystem.diagram.part,
+ jfb.examples.gmf.filesystem.diagram.providers
+Require-Bundle: org.eclipse.core.expressions,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.navigator.resources,
+ org.eclipse.gmf.runtime.diagram.ui.properties,
+ org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide,
+ Filesystem.edit;visibility:=reexport
+Eclipse-LazyStart: true

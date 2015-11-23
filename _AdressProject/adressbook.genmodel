@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/_AdressProject/src" modelPluginID="_AdressProject"
+    modelName="Adressbook" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>model/adressbook.ecore</foreignModel>
+  <genPackages prefix="Adressbook" disposableProviderFactory="true" ecorePackage="adressbook.ecore#/">
+    <genClasses ecoreClass="adressbook.ecore#//AdressBook">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute adressbook.ecore#//AdressBook/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference adressbook.ecore#//AdressBook/contains"/>
+    </genClasses>
+    <genClasses ecoreClass="adressbook.ecore#//Person">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute adressbook.ecore#//Person/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference adressbook.ecore#//Person/location"/>
+    </genClasses>
+    <genClasses ecoreClass="adressbook.ecore#//Address">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute adressbook.ecore#//Address/Name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
