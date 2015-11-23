@@ -37,6 +37,9 @@
     <bindings xmi:id="_AR1MRZG6EeWOVfhtMkAOuw" keySequence="M1+S" command="_AR1MQ5G6EeWOVfhtMkAOuw"/>
     <bindings xmi:id="_AR1MSJG6EeWOVfhtMkAOuw" keySequence="M1+A" command="_AR1MRpG6EeWOVfhtMkAOuw"/>
   </bindingTables>
+  <bindingTables xmi:id="_CpN2UJHmEeWyV59q9PglzQ" elementId="testdoublemodels.bindingtable.0" bindingContext="_AR1MOpG6EeWOVfhtMkAOuw">
+    <bindings xmi:id="_HN0p8JHmEeWyV59q9PglzQ" keySequence="M1+Q" command="_AR1MPJG6EeWOVfhtMkAOuw"/>
+  </bindingTables>
   <rootContext xmi:id="_AR1MOZG6EeWOVfhtMkAOuw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_AR1MOpG6EeWOVfhtMkAOuw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_AR1MO5G6EeWOVfhtMkAOuw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
